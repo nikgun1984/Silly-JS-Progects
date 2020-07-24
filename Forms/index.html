@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Logo Creator!</h1>
+    <form action="http://www.google.com" id="monkey">
+        <div class="in">
+            <label for="brand">Your Brand Name</label>
+            <input type="text" id="brand" name="brandname" max="20" placeholder="Your Brand" value="" required> <br>
+        </div>
+        <div class="in">
+            <label for="color">Your Brand Name</label>
+            <input type="color" id="color" value="black"> <br>
+        </div>
+        <div class="in">
+            <label for="logo-font">Logo Font Size</label>
+            <input type="range" min="10" max="50" value="10" id="logo-font"> <br>
+        </div>
+        <input type="submit" id="btn">
+        <script src="script.js"></script>
+    </form>
+</body>
+</html>
